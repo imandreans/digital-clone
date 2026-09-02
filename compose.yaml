@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: .
+    container_name: digital-clone
+    ports: 
+      - '7860:7860' #localhost port
+    env_file:
+      - .env
+  ngrok:
+    image: ngrok/ngrok:latest 
+    container_name: ngrok-tunnel 
+    command:
+      - "http"
+      - "http://host.docker.internal:7860" #localhost port 
+      - "--log=stdout" #Logs out
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    ports:
+      - 4040:4040 # access ngrok web interface locally 
+    

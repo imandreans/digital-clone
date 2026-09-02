@@ -1,0 +1,80 @@
+DIONISIUS ANDREAN SIHOMBING
+Banjarmasin South Kalimantan dionisius.andreans@gmailcom
+linkedincominimandreans  githubcomimandreans
+SUMMARY
+Informatics graduate currently working as an Agent Support at PT Astra Graphia Information Technology
+resolving high ticket volumes under strict deadlines Passionate about building reliable endtoend web
+systems and currently exploring AI Engineering to expand into datadriven solutions and aiming to grow
+as an AI Engineer while continuously picking up new technologies along the way
+WORK EXPERIENCES
+PT Astra Graphia Information Technology  Yogyakarta Indonesia April 2026  Present
+Agent Support
+ Handled an average of 20 tickets per shift via Remedy ITSM consistently meeting a strict 2hour
+SLA resolution target
+ Performed system maintenance on Remedy including daily restarts error handling and server
+downtime resolution
+ Resolved Office 365 issues covering mailbox OneDrive SharePoint license management and
+groupmailing list configuration using RDP and CMD scripting
+ Prepared and distributed daily and weekly operational reports via email and WhatsApp utilizing
+SAP for data access and service monitoring
+Telkom Indonesia  South Jakarta Remote from Yogyakarta June  August 2023
+Data Analyst Intern
+ Extracted and cleaned transactional data from PaDI UMKM database using SQL processing
+merchant transaction records to support business analysis
+ Created interactive dashboards in Looker Studio to track dailymonthly sales trends product
+performance and market patterns
+ Presented weekly analytical findings to project stakeholders providing datadriven insights for
+UMKM partnership evaluation
+Sanata Dharma University  Yogyakarta Indonesia
+February  June 2023
+Assistant Lecturer in Data Analysis Programming class
+ Guided 30 undergraduate students in Python programming fundamentals through interactive
+discussions and structured explanations of course materials
+ Reviewed and assessed student coding assignments by examining code logic implementation
+quality and adherence to programming best practices
+PROJECT EXPERIENCES
+CV Optimizer January 2026  Github
+ Designed and developed a fullstack web application using AIassisted development implementing
+CVtojobdescription matching data management and interactive user interfaces
+ Applied problem analysis system design and product thinking to identify user pain points define
+requirements and translate them into practical software solutions
+ Evaluated and selected technologies based on budget and hardware constraints while
+strengthening skills in rapid prototyping AI integration and iterative software development
+Pelajar Data Landing Page May 2025  Github
+ Built a fullstack web application using React with TypeScript for the frontend and Expressjs with
+PostgreSQL for the backend
+ Developed responsive UI components using Material UI and React featuring navigation footer
+and pagespecific layouts
+ Created RESTful APIs that connect the frontend to the PostgreSQL database enabling blog
+content retrieval and display
+Lacak Uang December 2024  Github
+ Built a complete expense tracking web application using Flask Python Supabase HTMLCSS
+and Jinja2 templates with CRUD functionality
+ Implemented JWTbased authentication with bcrypt password hashing CSRF protection and
+secure cookie handling
+ Connected to cloud database Supabase designed relational data models and integrated
+thirdparty APIs with form validation and environment variable management
+EDUCATION
+Sanata Dharma University  Yogyakarta Indonesia August 2019  July 2023
+Bachelors degree in Informatics
+ SKom in Information Technology July 2023 GPA 368
+TRAINING COURSES AND OTHERS
+PacmannAI February 2025  Present
+ Basic  Advanced Machine Learning  Certificate
+Completed training in key supervised unsupervised and ensemble machine learning techniques
+ Fundamental SQL  Data Wrangling with Pandas  Certificate
+Completed training in SQL and Python data analysis covering database queries aggregation
+joins data cleaning and realworld case studies
+ Basic Python Programming  Python for Software Engineering  Certificate
+Completed foundational programming training covering data structures control flow functions
+OOP debugging Git and applied case studies
+DQLab April  August 2023
+ TETRIS Batch 3 Data Analysis Internship Program  Certificate
+Collected cleaned and visualized Padi UMKM data using SQL and Looker Studio
+SKILLS
+Programming Language Python
+Backend Development RESTful API Design JWT Authentication Bcrypt
+Database  Storage PostgreSQL Supabase Redis Caching
+Frontend Development React HTML5 CSS3 Jinja2 Figma
+Collaboration  Tools Git GitHub version control
+Adaptability Learning new technologies Technology stack flexibility
