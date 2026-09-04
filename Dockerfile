@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY *.py pyproject.toml uv.lock /app/
 
-ADD cv.pdf /app/
+ADD cv.txt /app/
 
 # Installing needed dependencies
 RUN uv sync --locked 

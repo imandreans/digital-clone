@@ -8,15 +8,12 @@ from tools import Tools
 from context import Context
 
 CV_PATH = 'cv.txt'
-HOST = 'https://ollama.com'
 MODEL = "openai/gpt-oss-20b"
 
 tool = Tools()
 context = Context(cv_path=CV_PATH)
 
 load_dotenv(override=True)
-# client = Client(host=HOST,
-#                 headers={'Authorization': f"Bearer {os.environ.get('OLLAMA_API_KEY')}"})
 
 client = OpenAI(
    api_key=os.environ.get('OPENROUTER_API_KEY'),
