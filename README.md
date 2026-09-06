@@ -10,12 +10,12 @@ Chatbot that represents its owner to answer questions related to the owner's wor
 
 # Tech Stack
 - Python
-- Ollama
-- GPT-OSS:120b-Cloud
-- PushOver (Notifications)
+- OpenRouter
+- GPT-OSS:20b
+- SMTP (Simple Mail Transfer Protocol)
 
 # Need to add/do
  - [ ] Error Handling
  - [ ] Stricter Data Validation
- - [ ] Put Limit for tool calling and Chatting with the AI
+ - [x] Put Limit for tool calling and Chatting with the AI
  - [ ] Deploy 
