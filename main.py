@@ -32,12 +32,24 @@ def convo(message: str, history: list[dict[str, any]]) -> str:
     history = clean_history(history)
     messages = [{"role": "system", "content": context.get_system_prompt()}] + history + [{"role": "user", "content": message}]
     done = False
+    answer:str=''
 
     while not done:
+
         response = client.chat.completions.create(
             model=MODEL,
             messages=messages,
             tools=tool.TOOLS)
+
+        if response.usage.total_tokens > 7500:
+           answer="""You already hit the limit of using this turn. 
+                     If you have more questions, contact me to:
+                     - dionisius.andreans@gmail.com
+                     - https://www.linkedin.com/in/imandreans/
+                     
+                     P.S: Well you may refresh to use this Agents, but yeah, more work i guess."""
+        else:
+           answer = response.choices[0].message.content
         
         # Check if tool is called
         if response.choices[0].finish_reason=="tool_calls":
@@ -48,7 +60,8 @@ def convo(message: str, history: list[dict[str, any]]) -> str:
             messages.extend(results) # Put multiple values in the end of the messages
         else:
             done = True
-    return response.choices[0].message.content
+        
+    return answer
 
 if __name__ == "__main__":
    gr.ChatInterface(convo).launch(
